@@ -4,7 +4,7 @@
   "description": "K6 test suite for the PositionPal project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Note: no test specified\" && exit 0",
     "prepare": "husky"
   },
   "repository": {
