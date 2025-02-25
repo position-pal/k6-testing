@@ -1,0 +1,25 @@
+{
+  "name": "k6-testing",
+  "version": "0.0.1",
+  "description": "K6 test suite for the PositionPal project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/position-pal/k6-testing.git"
+  },
+  "keywords": [
+    "k6",
+    "test",
+    "javascript",
+    "positionpal"
+  ],
+  "author": "Giovanni Antonioni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/position-pal/k6-testing/issues"
+  },
+  "homepage": "https://github.com/position-pal/k6-testing#readme"
+}
