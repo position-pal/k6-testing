@@ -1,0 +1,51 @@
+# Node.js core
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test output
+coverage/
+.nyc_output/
+
+# Compilati o generati da TypeScript (se usi TS)
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+
+# ProtoBuf
+*.d.ts
+*.pb.*
+
+# MacOS
+._*
+
+# Temp
+tmp/
+temp/
+
+# Generated reports
+reports/
+
+# Firebase
+*firebase-config*
