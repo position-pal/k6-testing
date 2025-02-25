@@ -4,7 +4,8 @@
   "description": "K6 test suite for the PositionPal project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "eslint-config-prettier": "10.0.1",
     "eslint-plugin-jest": "28.11.0",
     "eslint-plugin-prettier": "5.2.3",
+    "husky": "^9.1.7",
     "prettier": "3.5.2"
   }
 }
