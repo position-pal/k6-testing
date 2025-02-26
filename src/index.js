@@ -1,6 +1,7 @@
-import { options } from "./config.js";
-import {userAuthFlow} from "./scenarios/user.auth.js";
+import { getOptions } from "./config.js";
+import { createGroupFlow } from "./scenarios/group.create.js"
 
-export default userAuthFlow;
-export { options };
+export default createGroupFlow;
 
+const testType = __ENV.TEST_TYPE || 'smoke';
+export const options = getOptions(testType);

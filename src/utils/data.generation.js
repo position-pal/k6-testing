@@ -1,7 +1,7 @@
 import faker from "k6/x/faker";
 
 export function generateUserData() {
-  return {
+    return {
         "userData": {
             "name": faker.person.firstName(),
             "surname": faker.person.lastName(),
@@ -9,4 +9,12 @@ export function generateUserData() {
         },
         "password": `Password${faker.strings.digitN(8)}!`
     };
+}
+
+export function generateGroupData(members) {
+    return {
+        "name": faker.word.loremIpsumWord(),
+        "members": members,
+        "createdBy": members[0]
+    }
 }
