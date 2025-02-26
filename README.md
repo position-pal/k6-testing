@@ -6,13 +6,15 @@ Here are collected the various smoke/load/stress tests for the Position Pal proj
 For running the test you need build the k6 executable along with the k6 faker extension. For doing this is necessary to use the xk6 builder tool, for more information about this tool you can visit the [xk6 repository](https://github.com/grafana/xk6).
 
 Then generate the extension using the following command:
-```bash
+
+```
 xk6 build --with github.com/grafana/xk6-faker@latest 
 ```
 
 ## Running the tests
 Is possible to run the tests using the following command:
-```bash
+
+```
 k6 run src/index.js -e TARGET_URL=https://url.of.pp:<port> -e TEST_TYPE=smoke|load|stress
 ```
 
