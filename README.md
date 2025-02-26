@@ -7,19 +7,18 @@ For running the test you need build the k6 executable along with the k6 faker ex
 
 Then generate the extension using the following command:
 
-```
+```bash
 xk6 build --with github.com/grafana/xk6-faker@latest 
 ```
 
-## Running the tests
+## Running the tests
 Is possible to run the tests using the following command:
 
-```
+```bash
 k6 run src/index.js -e TARGET_URL=https://url.of.pp:<port> -e TEST_TYPE=smoke|load|stress
 ```
 
-## Test types
-- Smoke: This test is used to check the basic functionality of the application.
-- Load: This test is used to check the performance of the application under normal conditions.
-- Stress: This test is used to check the performance of the application under high load conditions.
-
+## Test types
+- **Smoke**: This test is used to check the basic functionality of the application.
+- **Load**: This test is used to check the performance of the application under normal conditions.
+- **Stress**: This test is used to check the performance of the application under high load conditions.
